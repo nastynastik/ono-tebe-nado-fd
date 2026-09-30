@@ -25,9 +25,11 @@
 }
 
 .header__link {
+  text-decoration: underline;
+}
+.header__link_active {
   text-decoration: none;
 }
-
 .header__links-list-item_no-bullit {
   list-style: none;
 }
@@ -140,8 +142,7 @@
   line-height: 120px;
   text-align: center;
 }
-.aligned-text_left {
-}
+
 .aligned-text_right {
   line-height: 110px;
   text-align: right;
@@ -237,6 +238,7 @@
 }
 
 .lots__card-list {
+  flex-wrap: wrap;
   display: flex;
   gap: 25px;
   padding-bottom: 31px;
